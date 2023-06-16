@@ -173,11 +173,11 @@ a {
   }
 
   .left-box {
-    width: 60%;
+    width: 700px;
   }
 
   .email-note p {
-    margin-top: 0;
+    margin-top: 30px;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
   }
