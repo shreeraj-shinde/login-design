@@ -79,7 +79,7 @@
 
 .google-sign-in p {
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: rgba(17, 20, 45, 1);
 }
@@ -182,7 +182,21 @@ a {
 
   .email-note p {
     margin-top: 30px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Poppins", sans-serif;
+  }
+
+  .signup-container p,
+  a {
+    font-size: 14px;
+  }
+
+  .email-note p {
+    margin-top: 35px;
+    font-size: 14px;
+  }
+
+  .google-sign-in p {
+    font-size: 14px;
   }
 }
