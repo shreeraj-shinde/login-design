@@ -172,13 +172,13 @@ a {
     font-weight: 500;
   }
 
-  /* .left-box {
-    gap: 30px;
+  .left-box {
+    width: 60%;
   }
 
   .email-note p {
     margin-top: 0;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
-  } */
+  }
 }
