@@ -1,0 +1,138 @@
+* {
+  font-family: "Kadwa", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-image-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: center;
+  background-image: url("./assets/images/background.png");
+  background-position: center;
+  background-size: cover;
+  filter: blur(10px);
+  position: fixed;
+}
+
+.container {
+  z-index: 2;
+  display: flex;
+  position: absolute;
+  gap: 10px;
+  margin-top: auto;
+  background-color: white;
+  justify-content: space-between;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 850px;
+  width: 1440px;
+  border-radius: 50px;
+}
+
+.logo-container {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-name {
+  font-size: 25px;
+  color: rgba(78, 83, 82, 1);
+  font-weight: 800;
+}
+.left-box {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right-box {
+  border-radius: 60px;
+  margin: 20px;
+  overflow: hidden;
+}
+.title {
+  font-size: 64px;
+  color: rgba(12, 15, 39, 1);
+  margin-top: 35px;
+  font-weight: 500;
+}
+
+.google-sign-in {
+  margin-top: 24px;
+  display: flex;
+  width: 290px;
+  height: 40px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 2px rgba(0, 0, 0, 0.2) solid;
+}
+
+.google-sign-in p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(17, 20, 45, 1);
+}
+
+.google-sign-in img {
+  height: 24px;
+}
+
+.your-email {
+  margin-top: 40px;
+  color: rgba(17, 20, 45, 0.5);
+}
+
+.your-email span {
+  font-weight: 600;
+}
+
+.input-box-container input {
+  height: 40px;
+  width: 291px;
+  border: 2px rgba(78, 83, 82, 1) solid;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
+.email-note p {
+  margin-top: 35px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-button-container button {
+  background-color: rgba(255, 214, 69, 1);
+  height: 38px;
+  width: 138px;
+  margin-top: 35px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.signup-container p,
+a {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
+}
+
+.signup-container a {
+  font-weight: 50;
+}
