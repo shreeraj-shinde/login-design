@@ -158,9 +158,25 @@ a {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1400px) {
   .container {
-    width: 1024px;
-    height: 680px;
+    width: 1300px;
+    height: 660px;
   }
+  /* .title {
+    font-size: 64px;
+    color: rgba(12, 15, 39, 1);
+    margin-top: 0;
+    font-weight: 500;
+  } */
+
+  /* .left-box {
+    gap: 30px;
+  }
+
+  .email-note p {
+    margin-top: 0;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  } */
 }
