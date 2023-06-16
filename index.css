@@ -190,7 +190,10 @@ a {
   a {
     font-size: 14px;
   }
-
+  .your-email {
+    margin-top: 30px;
+    font-size: 14px;
+  }
   .email-note p {
     margin-top: 35px;
     font-size: 14px;
