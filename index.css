@@ -199,7 +199,10 @@ a {
   .google-sign-in p {
     font-size: 14px;
   }
-  .input-box-container {
+  .input-box-container input {
     font-size: 14px;
+  }
+  .logo-name {
+    font-size: 19px;
   }
 }
