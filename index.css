@@ -152,13 +152,6 @@ a {
   }
 }
 
-@media only screen and (max-width: 800px) {
-  .container {
-    width: 780px;
-    height: 95vh;
-  }
-}
-
 @media only screen and (max-width: 1600px) {
   .container {
     width: 1320px;
@@ -171,6 +164,58 @@ a {
   }
   .title {
     font-size: 48px;
+    color: rgba(12, 15, 39, 1);
+    margin-top: 20px;
+    font-weight: 500;
+  }
+
+  .left-box {
+    width: 750px;
+  }
+
+  .email-note p {
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .signup-container p,
+  a {
+    font-size: 14px;
+  }
+  .your-email {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .email-note p {
+    margin-top: 35px;
+    font-size: 14px;
+  }
+
+  .google-sign-in p {
+    font-size: 14px;
+  }
+  .input-box-container input {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  .logo-name {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 760px;
+    height: 480px;
+    gap: 20px;
+  }
+
+  .google-sign-in {
+    margin-top: 10px;
+  }
+  .title {
+    font-size: 36px;
     color: rgba(12, 15, 39, 1);
     margin-top: 20px;
     font-weight: 500;
