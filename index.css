@@ -163,12 +163,12 @@ a {
     width: 1200px;
     height: 660px;
   }
-  /* .title {
+  .title {
     font-size: 64px;
     color: rgba(12, 15, 39, 1);
     margin-top: 0;
     font-weight: 500;
-  } */
+  }
 
   /* .left-box {
     gap: 30px;
