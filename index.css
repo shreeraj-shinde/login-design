@@ -217,38 +217,34 @@ a {
   .title {
     font-size: 36px;
     color: rgba(12, 15, 39, 1);
-    margin-top: 20px;
+    margin-top: 12px;
     font-weight: 500;
   }
 
-  .left-box {
-    width: 750px;
-  }
-
   .email-note p {
-    margin-top: 30px;
-    font-size: 14px;
+    margin-top: 20px;
+    font-size: 12px;
     font-family: "Poppins", sans-serif;
   }
 
   .signup-container p,
   a {
-    font-size: 14px;
+    font-size: 12px;
   }
   .your-email {
-    margin-top: 30px;
-    font-size: 14px;
+    margin-top: 20px;
+    font-size: 12px;
   }
   .email-note p {
-    margin-top: 35px;
-    font-size: 14px;
+    margin-top: 30px;
+    font-size: 12px;
   }
 
   .google-sign-in p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .input-box-container input {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 30px;
   }
   .logo-name {
