@@ -161,7 +161,7 @@ a {
 
 @media only screen and (min-width: 1200px) {
   .container {
-    width: 1270px;
+    width: 1300px;
     height: 660px;
     gap: 20px;
   }
