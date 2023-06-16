@@ -211,6 +211,9 @@ a {
     gap: 20px;
   }
 
+  .left-box {
+    gap: 16px;
+  }
   /* .google-sign-in {
     margin-top: 10px;
   } */
