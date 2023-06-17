@@ -155,7 +155,6 @@ a {
   .container {
     width: 1320px;
     height: 660px;
-    gap: 20px;
   }
 
   .google-sign-in {
