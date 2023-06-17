@@ -157,6 +157,10 @@ a {
     height: 660px;
   }
 
+  .left-box {
+    width: 700px;
+  }
+
   .google-sign-in {
     margin-top: 10px;
   }
